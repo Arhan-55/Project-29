@@ -71,6 +71,12 @@ function setup(){
 function draw(){
   background("#3C2E2E");
   
+  stroke("white");
+  strokeWeight(3);
+  noFill();
+  textSize(20);
+  text("Drag the Hexagonal stone and release it,to launch it towards the blocks",450,200)
+    
   slingShot.display();
   ground.display();
 
