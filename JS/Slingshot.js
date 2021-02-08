@@ -32,7 +32,7 @@ class slingshot{
 			var pointB=this.pointB
 
 			strokeWeight(4);
-			stroke("#31CBD1")		
+			stroke("#45A4A2")		
 			line(pointA.x,pointA.y,pointB.x,pointB.y);
 		}
 	}
