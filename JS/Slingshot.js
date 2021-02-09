@@ -4,8 +4,8 @@ class slingshot{
 		
 		var options={ bodyA:body,			 
 			pointB:anchor, 
-			stiffness:0.010, 
-			length:1
+			stiffness:0.020, 
+			length:0.5
 			
 		}
 		
